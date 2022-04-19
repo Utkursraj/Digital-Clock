@@ -1,0 +1,27 @@
+body{
+    background:linear-gradient(black,white,orange,purple);
+   
+}
+
+.jumbotron{
+    background:linear-gradient(red,blue);
+    font-weight: 1000;
+    font-size: large;
+    font-family: sans-serif;
+   position: absolute;
+
+}
+div .jumbotron{
+    -webkit-animation: upNdown 20s infinite linear;
+    animation: upNdown 20s infinite linear;
+}
+@-webkit-keyframes upNdown{
+    0%{}
+    50%{ transform: translateY(-15px);}
+    100%{}
+}
+@keyframes upNdown {
+    0%{}
+    50%{transform: translateY(-15px);}
+    100%{}
+}
